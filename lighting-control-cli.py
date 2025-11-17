@@ -208,7 +208,7 @@ async def color_cycle_loop(mode="fade", color=None):
         # for _ in range(2):
         #     await set_power(True)
         #     await asyncio.sleep(0.01)
-        # power_state = True
+        power_state = True
     else:
         await set_power(True)
     
